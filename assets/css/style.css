@@ -108,6 +108,16 @@ button {
     background-color: yellow;
     color: black;
     border: none;
-    width: 100px;
-    
+    width: 100px;   
+}
+
+.secondpic{
+    margin-top: 0%;
+    float: right;
+    border-radius: 9%;
+}
+
+.foot{
+    padding: 23%;
+    margin-top: -20%;
 }
