@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box
+}
+
+html {
+    background-image: url("../images/oNgpxQM-800.jpg");
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    font-family: monospace;
+}
+
+li {
+    margin-left: 24px;
+    list-style-type: none;
+    margin-right: 50px;
+    
+}
+
+a {
+    color: antiquewhite;
+    font-size: 20px;
+    text-decoration: none;
+    
+}
+
+
+.project {
+    color: floralwhite;
+    font-size: 85px;
+}
+
+span {
+    color: yellow
+}
+
+img {
+    float: right;
+    margin-right: 150px;
+    margin-top: 30px;
+    border-radius: 50%;
+}
+
+section {
+    text-align: center;
+    width: 80%;
+    padding-top: 26.5%;
+}
+
+h1 {
+    font-family: fantasy;
+}
+
+section h1 {
+    color: yellow;
+    font-size: 60px;
+    font-style: oblique;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h2 {
+    color: white;
+}
+
+h3 {
+    color: rgb(2, 48, 146);  
+}
+
+a:hover {
+    color: yellow;
+}
+
+.detail {
+    text-align: center;
+    color: yellow;
+}
+
+.personalstuff {
+    font-size: 13px;
+    color: white;
+    text-align: center;
+    text-wrap: balance;
+}
+
+.boxed {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    position: static;
+    font-weight: bold;
+    border-radius: 0;
+    background-color: yellow;
+    color: black;
+    border: none;
+    width: 100px;
+    
+}
