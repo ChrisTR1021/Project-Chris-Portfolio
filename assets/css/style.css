@@ -4,6 +4,7 @@
     box-sizing:border-box
     
 }
+/* background */
 
 html {
     background-image: url("../images/oNgpxQM-800.jpg");
@@ -11,6 +12,7 @@ html {
     background-size: cover;
     background-position: center;
 }
+/* portfolio title */
 
 header {
     display: flex;
@@ -18,12 +20,14 @@ header {
     margin: 10px;
     align-items: center;
 }
+/* nav options */
 
 ul {
     display: flex;
     font-family: monospace;
     flex-wrap: wrap;
 }
+/* nav options continued */
 
 li {
     margin-left: 24px;
@@ -31,6 +35,7 @@ li {
     margin-right: 50px;
     
 }
+/* list item color */
 
 a {
     color: antiquewhite;
@@ -39,15 +44,16 @@ a {
     
 }
 
-
 .project {
     color: floralwhite;
     font-size: 85px;
 }
+/* portfolio color */
 
 span {
     color: yellow
 }
+/* image icon */
 
 img {
     float: right;
@@ -55,16 +61,19 @@ img {
     margin-top: 30px;
     border-radius: 50%;
 }
+/* section break down */
 
 section {
     text-align: center;
     width: 80%;
     padding-top: 26.5%;
 }
+/* h1 styling */
 
 h1 {
     font-family: fantasy;
 }
+/* section h1 name styling */
 
 section h1 {
     color: yellow;
@@ -72,23 +81,28 @@ section h1 {
     font-style: oblique;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+/* smaller title color */
 
 h2 {
     color: white;
 }
 
+
 h3 {
     color: white;  
 }
+/* hover over nav bar color */
 
 a:hover {
     color: yellow;
 }
 
+
 .detail {
     text-align: center;
     color: yellow;
 }
+/* about me styling */
 
 .personalstuff {
     font-size: 16px;
@@ -97,6 +111,7 @@ a:hover {
     text-wrap: balance;
     flex-wrap: wrap;
 }
+/* boxed stle for about me, project, contact */
 
 .boxed {
     display: flex;
@@ -104,6 +119,7 @@ a:hover {
     align-items: center;
     flex-wrap: wrap;
 }
+/* takes to github refactor code */
 
 button {
     position: static;
@@ -114,6 +130,7 @@ button {
     border: none;
     width: 100px;   
 }
+/* second pic at the bottom */
 
 .secondpic{
     margin-top: 0%;
@@ -122,18 +139,25 @@ button {
     flex-wrap: wrap;
 }
 
+/* footer filings */
+
 .foot{
     padding: 23%;
     margin-top: -20%;
 }
+/* flex-wraps */
 
 .wrap{
 flex-wrap: wrap;
 }
 
+/* paragraph styling */
+
 p{
     color:white
 }
+
+/* email me button */
 
 .mail {
     position: static;
